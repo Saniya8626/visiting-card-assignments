@@ -1,0 +1,314 @@
+body {
+    background-color: #9aa8b3;
+    
+   
+}
+
+.card-wrapper {
+    position: relative;
+    width: 99.9mm;
+    height: 65.8mm;
+    background-color: #ffffff;
+    
+    box-shadow: rgba(8, 0, 0, 0.3) 0pt 14.25pt 28.5pt, rgba(0, 0, 0, 0.22) 0pt 11.25pt 9pt;
+  
+   overflow: hidden;
+
+}
+
+.card1-background {
+    /* Customize background styling as needed */
+    background-color: #efeeea;
+    height: 100%;
+    
+    
+}
+  
+  
+.party-name
+{
+  
+  position: absolute;
+  top: 20mm;
+  
+  left: -30mm;
+ 
+  
+  width: 168mm;
+  font-size: 16.5pt;
+  font-weight: 1000; 
+  color: #024c73;
+}
+
+.company
+  {
+    font-weight: 700;
+    font-size: 11pt;
+    position:absolute;
+    top:25mm;
+    left: 33mm;
+    line-height: 9.2mm;
+    color:#024c73 ;
+
+    
+  }
+
+  .qr-img
+  {
+    position: absolute;
+    top: 14mm;
+    left: 21mm;
+    width: 40pt;
+    height: 36pt;
+  }
+
+  body .card1-background .left-big
+  {
+    position: absolute;
+    top: 58mm;
+    left: 3mm;
+    width:18mm;
+    height: 18mm;
+    background-color: #004c78;
+    transform: rotate(45deg);
+    transform-origin: center;  
+   
+   
+      
+  }
+
+  body .card1-background .left-mid
+  {
+    position: absolute;
+    top: 53mm;
+    left: 37.3mm;
+    width:26mm;
+    height: 26mm;
+    background-color: #004c78;
+    transform: rotate(45deg);
+    transform-origin: center;  
+    
+   
+      
+  }
+
+  body .card1-background .left-small
+  {
+    position: absolute;
+    top: 58mm;
+    left: 80mm;
+    width:17mm;
+    height: 17mm;
+    background-color: #004c78;
+    transform: rotate(45deg);
+   
+   
+   
+      
+  }
+
+
+  body  .party-phone
+  {
+    position: absolute;
+    top: 63mm;
+    left: 5.6mm;
+    width:13mm;
+    height: 13mm;
+    background-color: #0082be;
+    transform: rotate(45deg);
+    
+  }
+
+  body .party-phone-lable
+  {
+    position: absolute;
+    top: -90pt;
+    width: 15mm;
+    height: 15mm;
+   
+    left: 22.5mm;
+    background-color: #014b7a;
+    border: 1.3mm solid #008abb;
+   
+  }
+ 
+  body .party-phone-number
+  {
+    position: absolute;
+    top: -54mm;
+    left: 54mm;
+    width:13mm;
+    height: 13mm;
+    background-color: #0082be;
+    transform: rotate();
+   
+  }
+
+  body .card2-background
+  {
+    background-color: #efeeea;
+  }
+  body  .card2-background .Right-big
+  {
+    position: absolute;
+    top: 4mm;
+    left: 68mm;
+    width:39mm;
+    height: 39mm;
+    background-color: rgba(2,75,120,255);
+    transform: rotate(44deg);
+
+  }
+ 
+  body  .card2-background .Right-mid
+  {
+    position: absolute;
+    top: 9.9mm;
+    left: 74.2mm;
+    width:25mm;
+    height: 25mm;
+    background-color:  #014b7a;
+    transform: rotate(43deg);
+    border: 1.3mm solid #008abb;
+
+  }
+ 
+  body  .card2-background .Right-small
+  {
+    position: absolute;
+    top: 16.8mm;
+    left: 82mm;
+    width:12mm;
+    height: 12mm;
+    background-color:   #008abb;
+    transform: rotate(43deg);
+    
+
+  }
+  .org-address-line-1
+  {
+    position: absolute;
+    top: 58mm;
+    left: 86mm;
+    width:17mm;
+    height: 17mm;
+    background-color:    #014b7a;
+    transform: rotate(48deg);
+    
+
+  }
+ 
+  .org-address-line-2
+  {
+    position: absolute;
+    top: 61.9mm;
+    left: 89mm;
+    width:11mm;
+    height: 11mm;
+    background-color:#008abb;
+    transform: rotate(49deg);   
+
+  }
+
+  .org-address-location
+  {
+    position: absolute;
+    top: 45mm;
+    left: 55mm;
+    width:23mm;
+    height: 23mm;
+    background-color:#014b7a;;
+    transform: rotate(44deg); 
+  }
+ 
+  .org-address-area
+  {
+    position: absolute;
+    top: 51.4mm;
+    left: 61.2mm;
+    width:11mm;
+    height: 11mm;
+    background-color:#008abb;
+    transform: rotate(44deg); 
+  }
+  
+  
+  .org-email-lable
+  {
+    position: absolute;
+    top: 10mm;
+    left:15mm ;
+    font-size: 6.5mm;
+    font-weight: 1000;
+    color: #024c73;
+    letter-spacing: 1pt;
+
+  }
+
+  .org-email-address
+  {
+    position: absolute;
+    top: 11.5mm;
+    left:18mm ;
+    font-size: 7pt;
+    color:#024c73;
+    word-spacing:0.5mm;
+    line-height: 15mm;
+
+  }
+
+ .bi-bi-browser-chrome
+ {
+  position: absolute;
+    top: 27mm;
+    left:20mm ;
+    font-size: 3mm;
+    color:#024a77;
+
+ }
+
+ .org-website-lable
+ {
+  position: absolute;
+    top: 33mm;
+    left:20mm ;
+    font-size: 3mm;
+    line-height: 12mm;
+    color:#024a77;
+ }
+
+ .org-website-address
+ {
+  position: absolute;
+  top: 42.5mm;
+  left:20mm ;
+  font-size: 3mm;
+  line-height: 12mm;
+  color:#024a77;
+ }
+
+ .org-logo .org-logo-img
+ {
+  position: absolute;
+  top: 26.3mm;
+  left: 11mm;
+ }
+
+ .org-name
+ {
+
+  position: absolute;
+  top: 36mm;
+  left: 11mm;
+ }
+
+ .org-phone
+ {
+  
+  position: absolute;
+  top: 45.3mm;
+  left: 11mm;
+ }
+ 
+ 
